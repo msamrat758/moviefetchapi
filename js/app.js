@@ -1,12 +1,10 @@
-// default beh. of javascript
-
 let api = 'http://www.omdbapi.com/?apikey=61e576a4&t='
 
-// fetch(api).then((data)=>{
-//     return data.json()
-// }).then((data)=>{
-//     console.log(data)
-// })
+fetch(api).then((data)=>{
+    return data.json()
+}).then((data)=>{
+    console.log(data)
+})
 let title = document.getElementById('title');
 let date = document.getElementById('date');
 let plot = document.getElementById('plot');
